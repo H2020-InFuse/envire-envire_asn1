@@ -2,5 +2,12 @@
 # executed from 'project/build' with 'cmake ../'.
 cmake_minimum_required(VERSION 2.6)
 find_package(Rock)
+
+include($ENV{ESROCOS_CMAKE})
+
+esrocos_init()
+
+include(PluginManager)
+
 rock_init(envire_asn1 0.1)
 rock_standard_layout()

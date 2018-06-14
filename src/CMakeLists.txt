@@ -1,7 +1,16 @@
+
+esrocos_asn1_types_package(asn_local_types
+OUTDIR asn1
+IMPORT types/base types/sensor_samples)
+
+
 rock_library(envire_asn1
-    SOURCES Dummy.cpp
-    HEADERS Dummy.hpp)
+    SOURCES LaserScan.cpp
+    HEADERS RegisterItems.hpp
+    DEPS_PKGCONFIG envire_core)
 
-rock_executable(envire_asn1_bin Main.cpp
-    DEPS envire_asn1)
+add_dependencies(envire_asn1 asn_local_types_generate_c)
+target_include_directories(envire_asn1 PUBLIC ${CMAKE_BINARY_DIR})
 
+
+install_plugin_info(envire_asn1)
