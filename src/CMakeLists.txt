@@ -5,7 +5,7 @@ IMPORT types/base types/sensor_samples)
 
 
 rock_library(envire_asn1
-    SOURCES LaserScan.cpp
+    SOURCES RegisterItems.cpp
     HEADERS RegisterItems.hpp
     DEPS_PKGCONFIG envire_core)
 

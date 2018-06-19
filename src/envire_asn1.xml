@@ -30,4 +30,16 @@
       <class class_name="asn1SccLaserScan"></class>
     </associations>
  </class>
+ <class class_name="envire::core::Item<asn1SccRigidBodyState>" base_class_name="asn1SccRigidBodyState">
+    <description>ASN1 Laser Scan</description>
+    <associations>
+      <class class_name="asn1SccRigidBodyState"></class>
+    </associations>
+ </class>
+ <class class_name="envire::core::Item<asn1SccPointcloud>" base_class_name="asn1SccPointcloud">
+    <description>ASN1 Laser Scan</description>
+    <associations>
+      <class class_name="asn1SccPointcloud"></class>
+    </associations>
+ </class>
 </library>
