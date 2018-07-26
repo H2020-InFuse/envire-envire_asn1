@@ -42,4 +42,10 @@
       <class class_name="asn1SccPointcloud"></class>
     </associations>
  </class>
+ <class class_name="envire::core::Item<asn1SccDepthMap>" base_class_name="asn1SccDepthMap">
+    <description>ASN1 Laser Scan</description>
+    <associations>
+      <class class_name="asn1SccDepthMap"></class>
+    </associations>
+ </class>
 </library>
