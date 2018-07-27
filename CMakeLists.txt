@@ -3,9 +3,9 @@
 cmake_minimum_required(VERSION 2.6)
 find_package(Rock)
 
-include($ENV{ESROCOS_CMAKE})
+#include($ENV{ESROCOS_CMAKE})
 
-esrocos_init()
+#esrocos_init()
 
 include(PluginManager)
 

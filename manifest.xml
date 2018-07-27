@@ -17,4 +17,5 @@
   <depend package="envire/envire_core" />
   <depend package="types/base" />
   <depend package="types/sensor_samples" />
+  <depend package="infuse/asn1_types" />
 </package>
