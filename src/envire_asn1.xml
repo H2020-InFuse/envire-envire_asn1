@@ -31,21 +31,27 @@
     </associations>
  </class>
  <class class_name="envire::core::Item<asn1SccRigidBodyState>" base_class_name="asn1SccRigidBodyState">
-    <description>ASN1 Laser Scan</description>
+    <description>ASN1 RigidBodyState</description>
     <associations>
       <class class_name="asn1SccRigidBodyState"></class>
     </associations>
  </class>
  <class class_name="envire::core::Item<asn1SccPointcloud>" base_class_name="asn1SccPointcloud">
-    <description>ASN1 Laser Scan</description>
+    <description>ASN1 Pointcloud</description>
     <associations>
       <class class_name="asn1SccPointcloud"></class>
     </associations>
  </class>
  <class class_name="envire::core::Item<asn1SccDepthMap>" base_class_name="asn1SccDepthMap">
-    <description>ASN1 Laser Scan</description>
+    <description>ASN1 DepthMap</description>
     <associations>
       <class class_name="asn1SccDepthMap"></class>
+    </associations>
+ </class>
+ <class class_name="envire::core::Item<asn1SccVector3d>" base_class_name="asn1SccVector3d">
+    <description>ASN1 Vector3d</description>
+    <associations>
+      <class class_name="asn1SccVector3d"></class>
     </associations>
  </class>
 </library>
