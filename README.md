@@ -2,6 +2,8 @@ envire_asn1
 =============
 ASN.1 type plugin for envire
 
+Use the ./genterateTypeRegistrationFromTemplate.sh script for fast genration.
+Add the new file to the CMakeLists.txt
 
 
 License

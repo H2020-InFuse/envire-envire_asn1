@@ -1,7 +1,11 @@
 
 
 rock_library(envire_asn1
-    SOURCES RegisterItems.cpp
+    SOURCES RegisterDepthMap.cpp
+            RegisterLaserScan.cpp
+            RegisterPointcloud.cpp
+            RegisterRigidBodyState.cpp
+            RegisterVector3d.cpp
     HEADERS RegisterItems.hpp
     DEPS_PKGCONFIG envire_core asn1)
 
