@@ -54,4 +54,10 @@
       <class class_name="asn1SccVector3d"></class>
     </associations>
  </class>
+  <class class_name="envire::core::Item<asn1SccMap>" base_class_name="asn1SccMap">
+    <description>ASN1 Map</description>
+    <associations>
+      <class class_name="asn1SccMap"></class>
+    </associations>
+ </class>
 </library>

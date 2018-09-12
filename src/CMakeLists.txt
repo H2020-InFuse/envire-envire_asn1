@@ -6,6 +6,7 @@ rock_library(envire_asn1
             RegisterPointcloud.cpp
             RegisterRigidBodyState.cpp
             RegisterVector3d.cpp
+            RegisterMap.cpp
     HEADERS RegisterItems.hpp
     DEPS_PKGCONFIG envire_core asn1)
 
