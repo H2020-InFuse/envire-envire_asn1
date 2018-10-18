@@ -2,7 +2,7 @@
 #include <envire_core/plugin/Plugin.hpp>
 #include <asn1/asn1crt.h>
 
-#include <asn1/Vector3d.h>
+#include <asn1/Eigen.h>
 #include <boost/serialization/binary_object.hpp>
 
 BOOST_SERIALIZATION_SPLIT_FREE(asn1SccVector3d)
