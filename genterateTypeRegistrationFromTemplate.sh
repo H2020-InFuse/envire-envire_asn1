@@ -6,4 +6,4 @@ cat src/Register.cpp.template | sed -e "s/TYPENAME/${TYPENAME}/g" > src/Register
 git add src/Register${TYPENAME}.cpp
 
 
-echo "to finish, please add Register${TYPENAME}.cpp to the SOURCED in the srs/CMakeLists.txt and envire_ans1.xml"
+echo "\nto finish, please add Register${TYPENAME}.cpp to the SOURCES in the srs/CMakeLists.txt and envire_ans1.xml\n"

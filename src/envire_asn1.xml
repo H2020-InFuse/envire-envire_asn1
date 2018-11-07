@@ -60,4 +60,10 @@
       <class class_name="asn1SccMap"></class>
     </associations>
  </class>
+   <class class_name="envire::core::Item<asn1SccTransformWithCovariance>" base_class_name="asn1SccTransformWithCovariance">
+    <description>ASN1 Map</description>
+    <associations>
+      <class class_name="asn1SccTransformWithCovariance"></class>
+    </associations>
+ </class>
 </library>
