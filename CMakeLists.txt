@@ -7,7 +7,7 @@ find_package(Rock)
 
 #esrocos_init()
 
-include(PluginManager)
+find_package(PluginManager)
 
 rock_init(envire_asn1 0.1)
 rock_standard_layout()
